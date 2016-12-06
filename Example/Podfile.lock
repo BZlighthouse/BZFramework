@@ -1,0 +1,16 @@
+PODS:
+  - BZFramework (0.1.0)
+
+DEPENDENCIES:
+  - BZFramework (from `../`)
+
+EXTERNAL SOURCES:
+  BZFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BZFramework: 9059bc662b7b23dfc79f25fdc0efd8327181a7dd
+
+PODFILE CHECKSUM: 57a7db80b3b12e035787e0bc3859591768a3c781
+
+COCOAPODS: 1.2.0.beta.1
