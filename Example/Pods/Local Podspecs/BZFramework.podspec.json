@@ -1,9 +1,9 @@
 {
   "name": "BZFramework",
-  "version": "0.1.0",
-  "summary": "A short description of BZFramework.",
+  "version": "1.0.0",
+  "summary": "1.0.0.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/BZFramework",
+  "homepage": "https://github.com/BZLighthouse/BZFramework",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,22 @@
     "BZlighthouse": "282066546@qq.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/BZFramework.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/BZLighthouse/BZFramework.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "BZFramework/Classes/**/*"
+  "requires_arc": true,
+  "source_files": "BZFramework/Classes/**/*",
+  "resource_bundles": {
+    "BZFramework": [
+      "BZFramework/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "SVProgressHUD": [
+
+    ]
+  }
 }
