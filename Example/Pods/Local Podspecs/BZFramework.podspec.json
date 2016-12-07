@@ -1,7 +1,7 @@
 {
   "name": "BZFramework",
-  "version": "2.0.3",
-  "summary": "2.0.3.",
+  "version": "2.0.4",
+  "summary": "2.0.4.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/BZLighthouse/BZFramework",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "/Users/zhoubing/Desktop/cocoapods/BZFramework",
-    "tag": "2.0.3"
+    "tag": "2.0.4"
   },
   "platforms": {
     "ios": "8.0"
