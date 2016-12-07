@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = "BZFramework"
-  s.version = "1.0.1"
-  s.summary = "1.0.1."
+  s.version = "1.0.2"
+  s.summary = "1.0.2."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"BZlighthouse"=>"282066546@qq.com"}
   s.homepage = "https://github.com/BZLighthouse/BZFramework"
@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target    = '8.0'
   s.ios.vendored_framework   = 'ios/BZFramework.framework'
+  s.dependency  'SVProgressHUD'
 end
