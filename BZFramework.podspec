@@ -2,8 +2,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BZFramework'
-  s.version          = '2.0.0'
-  s.summary          = '2.0.0.'
+  s.version          = '2.0.1'
+  s.summary          = '2.0.1.'
 
 
   s.description      = <<-DESC
@@ -13,7 +13,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/BZLighthouse/BZFramework'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'BZlighthouse' => '282066546@qq.com' }
-  s.source           = { :git => '/Users/zhoubing/Desktop/cocoapods/BZFramework ', :tag => s.version.to_s }
+  s.source           = { :git => '/Users/zhoubing/Desktop/cocoapods/BZFramework', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
