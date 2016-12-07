@@ -1,5 +1,5 @@
 PODS:
-  - BZFramework (2.0.2):
+  - BZFramework (2.0.3):
     - SVProgressHUD
   - SVProgressHUD (2.1.1)
 
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BZFramework: b834003785ca4fef539806bcb3f70bf09e113a82
+  BZFramework: 45024ae62079da8c1bcaa40f603773453c26e3dd
   SVProgressHUD: 1127180503b9a308ddf7006f3cc58fc05cc1092d
 
 PODFILE CHECKSUM: 57a7db80b3b12e035787e0bc3859591768a3c781
