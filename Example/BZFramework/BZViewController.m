@@ -7,6 +7,7 @@
 //
 
 #import "BZViewController.h"
+#import <BZFramework/BZTest.h>
 
 @interface BZViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [BZTest test];
 }
 
 - (void)didReceiveMemoryWarning

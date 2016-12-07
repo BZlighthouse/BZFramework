@@ -13,5 +13,6 @@
 + (void)test
 {
     NSLog(@"你大爷");
+    [SVProgressHUD show];
 }
 @end
