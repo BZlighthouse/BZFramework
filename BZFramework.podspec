@@ -1,29 +1,17 @@
-
-
 Pod::Spec.new do |s|
-  s.name             = 'BZFramework'
-  s.version          = '3.0.0'
-  s.summary          = '3.0.0.'
-
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/BZLighthouse/BZFramework'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'BZlighthouse' => '282066546@qq.com' }
-  s.source           = { :git => '/Users/zhoubing/Desktop/BZFramework', :tag => s.version.to_s }
-
-  s.ios.deployment_target = '8.0'
+  s.name = "BZFramework"
+  s.version = "3.0.1"
+  s.summary = "3.0.1."
+  s.license = {"type"=>"MIT", "file"=>"LICENSE"}
+  s.authors = {"BZlighthouse"=>"282066546@qq.com"}
+  s.homepage = "https://github.com/BZLighthouse/BZFramework"
+  s.description = "TODO: Add long description of the pod here."
   s.requires_arc = true
-  s.source_files = 'BZFramework/Classes/**/*'
-  
-   s.resource_bundles = {
-     'BZFramework' => ['BZFramework/Assets/*.png']
-   }
+  s.source = { :git => 'https://github.com/BZLighthouse/BZFramework.git', 
+		  :tag => s.version
+	  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'SVProgressHUD'
+  s.ios.deployment_target    = '8.0'
+  s.ios.vendored_framework   = 'ios/BZFramework.framework'
+  s.dependency  'SVProgressHUD'
 end
